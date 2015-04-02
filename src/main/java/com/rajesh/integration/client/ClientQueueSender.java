@@ -21,7 +21,6 @@ public class ClientQueueSender {
         this.jmsTemplate = jmsTemplate;
     }
 
-    private String jmsQueue
 
     public void sendMesage() {
         MessageCreator messageCreator=new MessageCreator() {
